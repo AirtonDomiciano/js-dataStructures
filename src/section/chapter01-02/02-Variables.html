@@ -3,20 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <script type="text/javascript" src="02-Variables.js"></script>
+    <script type="text/javascript" src="03-Operadores.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body style="position: absolute; height: 100%;">
-    <div style="height: 100%;" class="w3-container">
-        <h2>Cards</h2>
-        <p>Create paper-like cards with the w3-card classes:</p>
-      
+<body>
+    <div class="w3-container">
+        <h1>Operadores</h1>
         <div class="w3-panel w3-card"><p>
+            <p> De acordo com a especificação, há dois tipos de dados em Js</p>
             <ul class="w3-ul w3-border">
-                <li><h2>Names</h2></li>
-                <li>Jill</li>
-                <li>Eve</li>
-                <li>Adam</li>
+                <li><h3>Tipo de dados primitivos</h3>
+                null (Nulo), undefined (Indefinido), string, number, booleano e symbol </li>
+                <li><h3>Tipo de dados derivados/objetos</h3>objetos js, incluindo funções arrays e expressões regulares</li>
+              </ul>
+        </p></div>
+        <div class="w3-panel w3-card"><p>
+            <h2>Váriaveis</h2>
+            <p>As váriavies armazenam dados que podem ser definidos, atualizado e recuperados sempre que necessário</p>
+            <p>Os valores atribuídos a uma variavel tem um tipo</p>
+            <ul class="w3-ul w3-border">
+                <li><b> Number</b>  (Número) </li> <b> </b>
+                <li><b>String</b> (São texto)</li>
+                <li><b>Boolean</b> (Apenas Aceita valores true ou false)</li>
+                <li><b>Function</b> (Essa variavel é  uma função)</li>
+                <li><b>Object</b>  (Objeto)<li>
+              </ul>
+        </p></div>
+        <div class="w3-panel w3-card"><p>
+            <h2>Verdadeiro e falso</h2>
+            <p class="w3-tooltip">Em js, true e false são um pouco complicados. Na maioria das linguagens, os valores booleanos 
+                true e false representam os resultados verdadeiro/falso. Em js uma string com 
+                <b>Packt <span class="w3-text">(<em>Ou webpack é um empacotador de módulos estáticos para aplicações JavaScript modernas</em>)</span></b> é avaliada como true</p>
+            <p>Os valores atribuídos a uma variavel tem um tipo</p>
+            <ul class="w3-ul w3-border">
+                <li><b>Undefined</b> (false) </li>
+                <li><b>Null</b> (false)</li>
+                <li><b>Booleano</b> (Verdadeiro ou falso) </li>
+                <li><b>Number (O resultado é falso para +0, -0 ou NAN; caso contrário, é true) </b> </li>
+                <li><b>String</b> O resultado é falso para string vazia</li>
+                <li><b>Object</b> true</li>
               </ul>
         </p></div>
     </div>
